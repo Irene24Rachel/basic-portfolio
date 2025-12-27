@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-labelledby="title">
+  <title id="title">Irene Rachel logo — pink monogram</title>
+  <defs>
+    <linearGradient id="pinkGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd6e8" />
+      <stop offset="50%" stop-color="#ff8fc2" />
+      <stop offset="100%" stop-color="#ff4da6" />
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feOffset dx="0" dy="4" result="off"/>
+      <feGaussianBlur in="off" stdDeviation="6" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="normal"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="6" y="6" width="108" height="108" rx="22" fill="url(#pinkGrad)" />
+
+    <!-- stylized uppercase 'I' with top and bottom bars -->
+    <rect x="36" y="36" width="48" height="8" rx="4" fill="#ffffff" opacity="0.98"/>
+    <rect x="54" y="44" width="12" height="32" rx="2" fill="#ffffff" opacity="0.98"/>
+    <rect x="36" y="80" width="48" height="8" rx="4" fill="#ffffff" opacity="0.98"/>
+
+    <!-- subtle glossy highlight -->
+    <path d="M18 18 C36 8,84 8,102 18 L102 40 C84 30,36 30,18 40 Z" fill="#ffffff" opacity="0.04"/>
+  </g>
+</svg>
